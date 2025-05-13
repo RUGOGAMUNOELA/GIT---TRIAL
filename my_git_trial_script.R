@@ -17,3 +17,16 @@ head(df)
 str(df)
 summary(df)
 
+#Remove duplicates
+df1 <- df %>% distinct()
+
+#Handle missing values
+df2 <- df1 %>% drop_na() 
+
+
+#Or we can handle missing values by replacing them with mean or median
+df2$Unit_Price <- ifelse
+
+
+
+
